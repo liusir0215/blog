@@ -1000,9 +1000,5 @@ vendors:
 # Assets
 css: css
 js: js
-<<<<<<< HEAD
-images: images
-=======
 images: images
 
->>>>>>> f1843607db53e419a31e62116578a3a37e095d19
