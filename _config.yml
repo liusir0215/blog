@@ -873,7 +873,7 @@ canvas_ribbon:
 # Remember to use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Available values: local, jsdelivr, unpkg
-  internal: local
+  internal: lib
 
   # Internal version: 3.1.0
   # anime: //unpkg.com/animejs@3.1.0/lib/anime.min.js
