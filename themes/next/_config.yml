@@ -629,7 +629,11 @@ livere_uid: # <your_uid>
 gitalk:
   enable: true
   github_id: liusir0215 # GitHub repo owner
+<<<<<<< HEAD
   repo: comments # Repository name to store issues
+=======
+  repo: comments  # Repository name to store issues
+>>>>>>> f1843607db53e419a31e62116578a3a37e095d19
   client_id: 429bbaec5d9457b5ece5 # GitHub Application Client ID
   client_secret: 1fa6563f5ad8427c14b0493ab7b7931dd2c11528 # GitHub Application Client Secret
   admin_user: liusir0215 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
@@ -1000,4 +1004,9 @@ vendors:
 # Assets
 css: css
 js: js
+<<<<<<< HEAD
 images: images
+=======
+images: images
+
+>>>>>>> f1843607db53e419a31e62116578a3a37e095d19
