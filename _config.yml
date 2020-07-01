@@ -101,3 +101,25 @@ deploy:
   type: git
   repository: https://github.com/liusir0215/liusir0215.github.io
   branch: master
+
+# hexo-server plugin
+server:
+  port: 4000
+  log: false
+  ip: 127.0.0.1
+  compress: false
+  serveStatic:
+    cacheControl: true
+    etag: false
+    lastModified: false
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 5
+  hub:
+  content: true
+  content_limit: 14
+  content_limit_delim: ' '
+  order_by: -date
