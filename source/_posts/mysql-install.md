@@ -193,9 +193,9 @@ alter user 'root'@'localhost' identified by 'your_password'
 最后开启远程连接
 ```shell
 use mysql;
-#修改root账户权限
+# 修改root账户权限
 update user set host = '%' where host = 'root';
-#刷新权限
+# 刷新权限
 flush privileges;
 ```
 
@@ -205,6 +205,6 @@ whereis mysql
 ```
 ![whereis](whereis.png)
 
-## References
+# References
 [1] [CentOS 7安装MySQL8.0](https://www.jianshu.com/p/224a891932d8)
 [2] [job for mysqld service failed in centos 7](https://stackoverflow.com/questions/34113689/job-for-mysqld-service-failed-in-centos-7)
