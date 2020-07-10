@@ -1,6 +1,8 @@
 # hexo
 该博客通过hexo搭建，采用的是next主题。
+
 博客域名为：http://www.godliusheng.com
+
 博客github pages：https://github.com/liusir0215/liusir0215.github.io
 
 #### 新增博客
